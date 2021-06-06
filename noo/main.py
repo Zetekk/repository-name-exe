@@ -260,8 +260,8 @@ class Level1(Level):
         super().__init__(player)
 
 player = Player(gm.PLAYER_SHIP)
-player.rect.bottom = 350
-player.rect.left = 100
+player.rect.bottom = 600
+player.rect.left = 650
 current_level = Level1(player)
 player.level = current_level
 
